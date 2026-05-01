@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3_bRvLU2C"
-#define BLYNK_TEMPLATE_NAME "IOT Smart Irrigation"
-#define BLYNK_AUTH_TOKEN "77FyfIyrg7axUIjfDDvj0m1FQ5TfG_2D"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
@@ -9,11 +9,11 @@
 #include "DHT.h"
 
 // ---------------- WIFI ----------------
-char ssid[] = "Galaxy M2170FA";
-char pass[] = "rtmv0412";
+char ssid[] = "";
+char pass[] = "";
 
 // ---------------- FLASK SERVER ----------------
-const char* serverName = "http://10.207.218.67:5000//predict";
+const char* serverName = "http://YOUR_IPV4_ADDRESS:5000//predict";
 
 // ---------------- PINS ----------------
 #define DHTPIN 4
